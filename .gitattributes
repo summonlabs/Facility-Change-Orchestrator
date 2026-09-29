@@ -1,0 +1,18 @@
+# Line-ending policy.
+#
+# Source, headers, scripts and documents are stored with LF endings so that a
+# clone on any platform gets byte-identical text. Binary artefacts are never
+# normalised.
+* text=auto eol=lf
+
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.zip binary
+*.lib binary
+*.exe binary
+*.pdb binary

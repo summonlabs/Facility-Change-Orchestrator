@@ -1,0 +1,30 @@
+# Build trees
+/build/
+/build-*/
+/out/
+/cmake-build-*/
+build_scratch/
+
+# Compiler and toolchain artefacts
+*.obj
+*.o
+*.a
+*.lib
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.tlog
+*.lastbuildstate
+*.log
+
+# Editor and OS noise
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
