@@ -3,7 +3,7 @@
 Facility Change Orchestrator (FCO) is the physical-fleet lifecycle composition runtime of the
 Data Center Control Plane (DCCP). It plans and orchestrates multi-domain facility changes that
 span physical assets, lifecycle state, power, cooling, capacity, fabric attachment, maintenance
-state, and the ASI and DFI control systems below it. It is DCCP repository 40 of 72, tranche 5.
+state, and the ASI and DFI control systems below it.
 
 C++20, CMake, no third-party dependencies, no telemetry transmission.
 
